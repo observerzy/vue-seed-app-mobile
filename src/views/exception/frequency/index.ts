@@ -1,11 +1,8 @@
 import { Options, Vue } from "vue-class-component";
-import DemoClass from "@/components/DemoClass/index.vue";
-import DemoSetup from "@/components/DemoSetup/index.vue";
+
 
 @Options({
     components: {
-        DemoClass,
-        DemoSetup
     },
 })
 export default class About extends Vue {
