@@ -9,12 +9,15 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "ant-design-vue": "^3.0.0-alpha.14",
     "core-js": "^3.6.5",
+    "ts-import-plugin": "^2.0.0",
+    "ts-loader": "^9.2.6",
+    "vant": "3",
     "vue": "^3.0.0",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.0.0-0",
-    "vuex": "^4.0.0-0"
+    "vuex": "^4.0.0-0",
+    "webpack-merge": "^5.8.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.19",

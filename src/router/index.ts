@@ -1,9 +1,12 @@
 import { createRouter, createWebHistory, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-import Home from '../views/home/index.vue'
 import Timeout from '../views/exception/timeout/index.vue'
 import RequestFail from '../views/exception/request-fail/index.vue'
 
 const routes: Array<RouteRecordRaw> = [
+  {
+    path:'/',
+    redirect:'/frequency'
+  },
   {
     path: '/frequency',
     name: 'Frequency',
