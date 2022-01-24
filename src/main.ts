@@ -2,13 +2,12 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import { Button } from 'vant';
+import { Button,Icon  } from 'vant';
 
 const app = createApp(App)
 
-app.use(store)
-app.use(router)
+app.use(store).use(router)
 
-app.use(Button)
+app.use(Button).use(Icon)
 
 app.mount("#app");
